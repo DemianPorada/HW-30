@@ -1,5 +1,15 @@
+.block{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid black;
+}
 .square{
-    background-color: aquamarine;
     height: 100px;
     width: 100px;
+    background-color: blueviolet;
+    transition: transform 300ms;
+}
+.block:hover.square{
+    transform: translateX(100%);
 }
